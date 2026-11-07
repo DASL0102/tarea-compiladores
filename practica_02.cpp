@@ -1,3 +1,5 @@
+// Link video: https://youtu.be/zPXAMhvHqZ8 dsd
+
 #include <iostream>
 #include <stdexcept>
 #include <string>
@@ -86,7 +88,7 @@ int main()
     LLParser parser(grammar);
     Lexer lexer = make_lexer();
 
-    const std::string input = "(9-*2";
+    const std::string input = "8&2";
 
     try
     {
